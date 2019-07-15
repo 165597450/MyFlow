@@ -1,0 +1,216 @@
+.icon-blank{
+	background:url('tbyficon/blank.gif') no-repeat center center;
+}
+.icon-add{
+	/*background:url('tbyficon/edit_add.png') no-repeat center center;*/
+    	background:url('tbyficon/newlyAdded.png') no-repeat center center;
+}
+.icon-edit{
+	/*background:url('tbyficon/pencil.png') no-repeat center center;*/
+    	background:url('tbyficon/modify.png') no-repeat center center;
+}
+.icon-clear{
+	/*background:url('tbyficon/clear.png') no-repeat center center;*/
+    background:url('tbyficon/Reset.png') no-repeat center center;
+
+}
+.icon-remove{
+	/*background:url('tbyficon/edit_remove.png') no-repeat center center;*/
+    background:url('tbyficon/delete.png') no-repeat center center;
+}
+.icon-save{
+	/*background:url('tbyficon/filesave.png') no-repeat center center;*/
+    background: url('tbyficon/determine.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('tbyficon/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('tbyficon/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('tbyficon/no.png') no-repeat center center;
+}
+.icon-cancel{
+	/*background:url('tbyficon/cancel.png') no-repeat center center;*/
+    background:url('tbyficon/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('tbyficon/reload.png') no-repeat center center;
+}
+.icon-search{
+	/*background:url('tbyficon/search.png') no-repeat center center;*/
+    background:url('tbyficon/query.png') no-repeat center center;
+}
+.icon-print{
+	background:url('tbyficon/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('tbyficon/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('tbyficon/undo.png') no-repeat center center;
+}
+.icon-ren{
+	background:url('tbyficon/ren.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('tbyficon/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('tbyficon/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('tbyficon/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('tbyficon/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('tbyficon/filter.png') no-repeat center center;
+}
+.icon-man{
+	background:url('tbyficon/man.png') no-repeat center center;
+}
+.icon-lock{
+	background:url('tbyficon/lock.png') no-repeat center center;
+}
+.icon-more{
+	background:url('tbyficon/more.png') no-repeat center center;
+}
+
+
+.icon-mini-add{
+	background:url('tbyficon/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('tbyficon/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('tbyficon/mini_refresh.png') no-repeat center center;
+}
+
+.icon-large-picture{
+	background:url('tbyficon/large_picture.png') no-repeat center center;
+}
+.icon-large-clipart{
+	background:url('tbyficon/large_clipart.png') no-repeat center center;
+}
+.icon-large-shapes{
+	background:url('tbyficon/large_shapes.png') no-repeat center center;
+}
+.icon-large-smartart{
+	background:url('tbyficon/large_smartart.png') no-repeat center center;
+}
+.icon-large-chart{
+	background:url('tbyficon/large_chart.png') no-repeat center center;
+}
+.icon-set{
+	/*background:url('tbyficon/config.png') no-repeat center center;*/
+    background: url('tbyficon/set.png') no-repeat center center;
+}
+.icon-table_export{
+	background:url('tbyficon/table_export.png') no-repeat center center;
+}
+.icon-print{
+	background:url('tbyficon/print.png') no-repeat center center;
+}
+.icon-preview{
+	background:url('tbyficon/preview.png') no-repeat center center;
+}
+.icon-export {
+	background:url('tbyficon/export .png') no-repeat center center;
+    width:30px;
+    height:20px;
+    margin-top:-13px;
+    margin-left:-15px; 
+}
+
+/*新增图标*/
+/*查询*/
+/*.icon-query{
+	background:url('tbyficon/query.png') no-repeat center center;
+}*/
+/*重置*/
+/*.icon-Reset{
+	background:url('tbyficon/Reset.png') no-repeat center center;
+}*/
+/*取消*/
+/*.icon-cancel{
+	background:url('tbyficon/cancel.png') no-repeat center center;
+}*/
+/*新增*/
+/*.icon-newlyAdded{
+	background:url('tbyficon/newlyAdded.png') no-repeat center center;
+}*/
+/*修改*/
+/*.icon-modify{
+	background:url('tbyficon/modify.png') no-repeat center center;
+}*/
+/*删除*/
+/*.icon-delete{
+	background:url('tbyficon/delete.png') no-repeat center center;
+}*/
+/*导出*/
+.icon-export{
+	background:url('tbyficon/export.png') no-repeat center center;
+        margin-left:-5px;
+        margin-top:-11px;
+}
+/*设置*/
+/*.icon-set {
+    background: url('tbyficon/set.png') no-repeat center center;
+}*/
+/*确定*/
+/*.icon-determine {
+    background: url('tbyficon/determine.png') no-repeat center center;
+}*/
+/*启用*/
+.icon-enable {
+    background: url('tbyficon/enable.png') no-repeat center center;
+}
+/*停用*/
+.icon-discontinuation {
+    background: url('tbyficon/discontinuation.png') no-repeat center center;
+}
+/*修改密码*/
+.icon-modify2 {
+    background: url('tbyficon/modify2.png') no-repeat center center;
+}
+
+/*门户功能*/
+.icon-portalManagement {
+    background: url('tbyficon/portalManagement.png') no-repeat center center;
+}
+/*常用菜单*/
+.icon-cycd {
+    background: url('tbyficon/cycd.png') no-repeat center center;
+}
+/*单点登录*/
+.icon-dddl {
+    background: url('tbyficon/dddl.png') no-repeat center center;
+}
+/*账号*/
+.icon-name {
+    background: url('tbyficon/name.png') no-repeat center center;
+}
+/*密码*/
+.icon-pwd {
+    background: url('tbyficon/pwd.png') no-repeat center center;
+}
+/*患者卡片*/
+.icon-patientcard {
+    background: url('tbyficon/patientcard.png') no-repeat center center;
+}
+/*患者列表*/
+.icon-patientlist {
+    background: url('tbyficon/patientlist.png') no-repeat center center;
+}
+/*设置角色*/
+.icon-setRole{
+    background: url('tbyficon/setRole.png') no-repeat center center;
+}
+/*右键配置*/
+.icon-configuration {
+    background: url('tbyficon/configuration.png') no-repeat center center;
+}

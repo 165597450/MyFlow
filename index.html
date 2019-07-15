@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="/plugin/easyui.css">
+    <script src="/plugin/jquery/1.9.0/jquery.js" type="text/javascript"> </script>
+    <script src="/plugin/jquery-easyui/1.5.2/js/jquery.easyui.min.js" type="text/javascript"> </script>
+    <script src="/Plugin/raphael/2.2.1/js/raphael.min.js" type="text/javascript"> </script>
+    <script src="Myflow.js"></script>
+    <style>
+
+     
+        /*图形按钮*/
+        .imgbtn {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+        }
+        /*图形按钮文字*/
+        .imgtitle {
+            position: absolute;
+            top: 100%;
+            height: 0px;
+            font-size: 12px;
+            width: 100%;
+            text-align: center;
+            visibility: visible;
+            z-index: 1;
+        }
+        /*绘图区*/
+        .ra {
+            position: absolute;
+            width: 1000px;
+            height: 630px;
+            background-color: none;
+          
+        }
+    </style>
+
+</head>
+
+
+<body class="easyui-layout">
+
+    <div id="title" region="north" split="true" border="false" title="工具栏" data-options="region:'north',title:'North Title',split:true" style="padding: 5px; height:60px;">
+        <input type="button" value="移动模式" onclick="moveNodeMode()" />
+        <input type="button" value="连线模式" onclick="drawLineMode()" /> 
+        <input type="button" value="水平居中" onclick="nodeCenter()" /> 
+        <input type="button" value="水平等距" onclick="nodeWidthIsometry()" /> 
+        <input type="button" value="垂直居中" onclick="nodeMiddle()" /> 
+        <input type="button" value="垂直等距" onclick="nodeHeightIsometry()" /> 
+        <input type="button" value="删除" onclick="deleteNode()" />  
+        <input type="button"   value="结果" onclick="showResult()" />  
+        <input type="button" value="加载" onclick="LoadData()" />  
+    </div>
+
+    <div title="基本图形" data-options="region:'west',title:'west',split:true" style="width: 70px; background: #eee;">
+        <div >
+            <img id="circle" src="/images/round.png" class="imgbtn" form="circle" />
+            <div>圆形</div>
+        </div>
+        <div  >
+
+            <img id="rect" src="/images/rect.png" class="imgbtn" form="rect" />
+            <div>方形</div>   
+        </div>
+       
+       
+    </div>
+
+    <div title="绘图区" id="contextBody" data-options="region:'center',title:'center title'" style="padding:5px;"> 
+        <div id="ra" class="ra">
+        </div>
+    </div>
+    <div   id="helpContext" data-options="region:'south',title:'HELP',split:true" style="padding: 5px; height: 100px;">
+       
+    </div>
+ 
+</body>
+</html>
